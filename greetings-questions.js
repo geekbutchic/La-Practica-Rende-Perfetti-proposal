@@ -12,10 +12,10 @@ console.log("Acknowledging the time of day, gender, and formal version of 'how a
 
 const greeting = function (guess) {
     console.log('You answered: ' + guess)
-    if (guess === 'Buongiorno signore come sta') {
+    if (guess.toLowerCase() === 'buongiorno signore come sta') {
         console.log(`That's right, bravissimo!`)
         interface.close();
-    } else if (guess === 'Buona notte signora come sta' || guess === 'Buona notte signore come sta' || guess === 'Buonasera signora come sta' || guess === 'Buonasera signore come sta') {
+    } else if (guess === 'buona notte signora come sta' || guess === 'buona notte signore come sta' || guess === 'buonasera signora come sta' || guess === 'buonasera signore come sta') {
         console.log("That's incorrect, the answer is 'Buongiorno signore come sta?'.");
         console.log("Let's continue to the final question of this lesson.")
         interface.close();

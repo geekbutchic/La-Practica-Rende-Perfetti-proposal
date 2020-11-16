@@ -16,10 +16,10 @@ console.log("It's after dinner and you are leaving the ristorante, what would th
 
 const greeting = function (guess) {
     console.log('You answered: ' + guess)
-    if (guess === 'Buona notte') {
+    if (guess.toLowerCase() === 'buona notte') {
         console.log(`That's right!`)
         interface.close();
-    } else if (guess === 'Buonasera' || guess === 'buongiorno') {
+    } else if (guess === 'buonasera' || guess === 'buongiorno') {
         console.log("That's incorrect, the answer is 'Buona notte'.");
         console.log("Let's continue plenty of opportunity to get it right.")
         interface.close();
