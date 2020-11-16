@@ -6,7 +6,7 @@ const interface = readline.createInterface({
 })
 
 console.log("Now that we know formal opening greetings based on the time of day, let's learn how to respond to them.")
-console.log("What if we want to ask them 'how are they doing?'")
+console.log("What if we want to ask them 'how are they doing'?")
 console.log("How are you doing?")
 console.log("'Come sta' is the proper formal response.")
 console.log("Based on what you know")
